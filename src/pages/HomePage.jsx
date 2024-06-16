@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
         <div className="grid_8">
           <div className="pad-1">
-            <h2 className="p2">Welcome to Art School</h2>
+            <h2 className="p2">Welcome to Duci Art</h2>
             <p className="text-1">
               Art School is one of{" "}
               <a

@@ -4,8 +4,13 @@ const AboutPage = () => {
   return (
     <section id="content">
       <div className="container_12">
-        <div className="grid_4 bot-1">
-          <h2 className="top-6 p2">Teachers</h2>
+        <div className="grid_4 bot-3">
+          <h2
+            className="top-6 p2"
+            style={{ marginTop: "60px" }}
+          >
+            Teachers
+          </h2>
           <p className="text-1 p3">Peter Stanton</p>
           <p>
             Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
@@ -29,14 +34,15 @@ const AboutPage = () => {
               <h2 className="clr-6 p6">A Few Words About Us</h2>
               <p className="clr-6">
                 <strong>
-                  Consetetur sadipscing elitr, sed diam nonumy eirmod tempor{" "}
+                  Duci Art CHÍNH THỨC gia nhập đường đua nghệ thuật ! 🔥
                 </strong>
               </p>
               <p className="clr-6">
-                Invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et acam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est lorem
-                ipsum dolor sit amet.
+                Vậy là sau 5 tháng ấp ủ thì cũng đã đến lúc nhà "Đu xì" thực
+                hiện giấc mơ của mình. Với sứ mệnh nuôi nấng những tâm hồn nghệ
+                thuật bên trong của mỗi cá thể, Duci Art sẽ cùng bạn hoà mình
+                vào nét vẽ của thực tại, để bạn thoả sức sáng tạo với niềm đam
+                mê của bản thân.
               </p>
               <div className="pad-3">
                 <img
@@ -46,62 +52,23 @@ const AboutPage = () => {
                 />
                 <div className="extra-wrap clr-6">
                   <p>
-                    <strong>Lorem ipsum dolor sit amet, consetetur</strong>
-                  </p>
-                  <p>
-                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At
-                    vero eos et accusam et justo duo dolores et ea rebum. Stet
-                    clita kasd gubergren, no sea takimata sanctus est Lorem
-                    ipsum dolor sit amet.
+                    Chúng mình có lộ trình học cụ thể, từ cơ bản đến nâng cao ở
+                    các lớp màu bột, màu nước, kí hoạ, minh hoạ, tĩnh vật chì và
+                    các lớp mỹ thuật thiếu nhi cho các bạn nhỏ.
                   </p>
                 </div>
               </div>
-              <h2 className="clr-6 p6">What We Offer</h2>
+
               <p className="clr-6">
-                <strong>
-                  Nam liber tempor cum soluta nobis eleifend option
-                </strong>
+                Nhưng mong rằng, khi đến với Duci thì ai cũng giống nhau, không
+                lấy tuổi tác, vị thế làm rào cản. Vì chúng ta đều mang trong
+                mình một tâm hồn nghệ thuật rất riêng ! <br />
+                ☘️ Hãy cùng Duci Art chăm sóc và ươm mầm cho vườn hoa bên trong
+                bạn. Để từ đó sinh sôi những gam màu tuyệt vời nhất !
               </p>
-              <p className="clr-6">
-                Congue nihil imperdiet doming id quod mazim placerat facer
-                possim assum. Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit:
-              </p>
-              <div className="lists">
-                <ul className="list-2">
-                  <li>
-                    <p>Sed diam nonummy nibh euismod</p>
-                  </li>
-                  <li>
-                    <p>Tincidunt ut laoreet dolore</p>
-                  </li>
-                  <li>
-                    <p>Magna aliquam erat volutpat wisi enim</p>
-                  </li>
-                  <li>
-                    <p>Minim veniam, quis nostrud exerci</p>
-                  </li>
-                </ul>
-                <ul className="list-2 last">
-                  <li>
-                    <p>Duis autem vel eum iriure dolor</p>
-                  </li>
-                  <li>
-                    <p>Hendrerit in vulputate velit molestie</p>
-                  </li>
-                  <li>
-                    <p>Consequat vel illum dolore</p>
-                  </li>
-                  <li>
-                    <p>Feugiat nulla facilisis at vero eros</p>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
-        <div className="clear" />
       </div>
     </section>
   );

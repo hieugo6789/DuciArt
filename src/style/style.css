@@ -2,7 +2,7 @@
 html, body {width:100%; padding:0; margin:0;}
 
 body { 	 
-	font: 14px/22px Georgia, "Times New Roman", Times, serif;
+	font: 14px/22px, "Times New Roman", Times, serif;
 	color:#838180;
 	min-width:1000px;
 	background: #000000;
@@ -66,6 +66,7 @@ ul.list-2 li a:hover {color:#0072ff;}
 
 .bot-0 {padding-bottom:0 !important; margin-bottom:0 !important;}
 .bot-1 {padding-bottom:411px;}
+.bot-3 {padding-bottom:11px;}
 .bot-2 {margin-bottom:0px;}
 
 .pad-0 {padding:0px 0px 0px 0px;}
@@ -138,3 +139,5 @@ dl dd a:hover {}
 .btns {text-align:center; margin-left:82px; overflow:hidden;}
 .btns a {display:inline-block; margin:0 15px 0 15px;}
 #form label strong {float:left; display:inline-block; padding-top:3px; width:82px; color:#000; line-height:20px;} 
+
+/**********************form**********************/

@@ -13,14 +13,11 @@ const ContactsPage = () => {
           </div>
           <dl>
             <dt>
-              8901 Marmora Road, <br />
-              Glasgow, D04 89GR.
+              100E/14 Đường N1, Phường Bình Thọ, <br />
+              TP. Thủ Đức.(Khu Moonlight Residences)
             </dt>
             <dd>
-              <span>Telephone: </span>+1 800 603 6035
-            </dd>
-            <dd>
-              <span>E-mail: </span>mail@demolink.org
+              <span>Phone: </span>0903 997 907
             </dd>
           </dl>
         </div>
