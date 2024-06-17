@@ -1,3 +1,5 @@
+import ContactForm from "../components/ContactForm";
+
 const ContactsPage = () => {
   return (
     <section id="content">
@@ -25,57 +27,7 @@ const ContactsPage = () => {
           <div className="block-1 top-5">
             <div className="block-1-shadow1">
               <h2 className="clr-6">Contact Form</h2>
-              <form
-                id="form"
-                method="post"
-              >
-                <fieldset style={{ borderWidth: "0px" }}>
-                  <label>
-                    <strong>Name:</strong>
-                    <input
-                      type="text"
-                      defaultValue=""
-                    />
-                    <strong className="clear" />
-                  </label>
-                  <label>
-                    <strong>Email:</strong>
-                    <input
-                      type="text"
-                      defaultValue=""
-                    />
-                    <strong className="clear" />
-                  </label>
-                  <label>
-                    <strong>Phone:</strong>
-                    <input
-                      type="text"
-                      defaultValue=""
-                    />
-                    <strong className="clear" />
-                  </label>
-                  <label>
-                    <strong>Message:</strong>
-                    <textarea defaultValue={""} />
-                    <strong className="clear" />
-                  </label>
-                  <strong className="clear" />
-                  <div className="btns pad-2">
-                    <a
-                      href="#"
-                      className="link-2"
-                    >
-                      Clear
-                    </a>
-                    <a
-                      href="#"
-                      className="link-2"
-                    >
-                      Send
-                    </a>
-                  </div>
-                </fieldset>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>
